@@ -20,7 +20,7 @@ sourcecode
 
 <p>
  
-### sourcecode
+sourcecode
   
        from view.view_nilai import view
   
@@ -85,7 +85,7 @@ sourcecode
 
 <p>
  
-### sourcecode
+sourcecode
  
         import os
     import time
@@ -210,7 +210,7 @@ sourcecode
 
 <p>
  
-### sourcecode
+sourcecode
  
     class daftar:
 
