@@ -15,9 +15,10 @@
 
  <p>
    
- ## input_nilai.py
+## input_nilai.py
   
- from view.view_nilai import view
+       from view.view_nilai import view
+  
 p = view()
 class input_data:
     def data_input(self):
