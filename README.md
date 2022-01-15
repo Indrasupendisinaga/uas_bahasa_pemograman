@@ -19,8 +19,8 @@
   
        from view.view_nilai import view
   
-p = view()
-class input_data:
+    p = view()
+    class input_data:
     def data_input(self):
         self._nama = str(
             input('\33[45m\33[37m MASUKAN NAMA \33[41m\33[30m ~# \33[0m '))
