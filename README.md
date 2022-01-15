@@ -1,4 +1,4 @@
-### uas_bahasa_pemograman
+PROGRAM_INPUT_DATA_MAHASISWA
 ### main.py
 
 <p>
