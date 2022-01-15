@@ -16,35 +16,36 @@
  <p>
    
  ## input_nilai.py
-<p> from view.view_nilai import view
-<p>p = view()
-<p>class input_data:
-<p>    def data_input(self):
-<p>        self._nama = str(
-<p>            input('\33[45m\33[37m MASUKAN NAMA \33[41m\33[30m ~# \33[0m '))
-<p>        p.clean()
-<p>        p.header()
-<p>        self._nim = int(
-<p>            input('\33[45m\33[37m MASUKAN NIM \33[41m\33[30m ~# \33[0m '))
-<p>        p.clean()
-<p>        p.header()
-<p>        self._tugas = int(
-<p>            input(
-<p>                '\33[45m\33[37m MASUKAN NILAI TUGAS \33[41m\33[30m ~# \33[0m ')
-<p>        )
-<p>        p.clean()
-<p>        p.header()
-<p>        self._uts = int(
-<p>            input(
-<p>                '\33[45m\33[37m MASUKAN NILAI UTS \33[41m\33[30m ~# \33[0m '))
-<p>        p.clean()
-<p>        p.header()
-<p>        self._uas = int(
-<p>            input(
-<p>                '\33[45m\33[37m MASUKAN NILAI UAS \33[41m\33[30m ~# \33[0m '))
-<p>        p.clean()
-<p>        self._akhir = float((self._tugas * 0.30) + (self._uts * 0.35) +
-<p>                            (self._uas * 0.35))
+  
+ from view.view_nilai import view
+p = view()
+class input_data:
+    def data_input(self):
+        self._nama = str(
+            input('\33[45m\33[37m MASUKAN NAMA \33[41m\33[30m ~# \33[0m '))
+        p.clean()
+        p.header()
+        self._nim = int(
+            input('\33[45m\33[37m MASUKAN NIM \33[41m\33[30m ~# \33[0m '))
+        p.clean()
+        p.header()
+        self._tugas = int(
+            input(
+                '\33[45m\33[37m MASUKAN NILAI TUGAS \33[41m\33[30m ~# \33[0m ')
+        )
+        p.clean()
+        p.header()
+        self._uts = int(
+            input(
+                '\33[45m\33[37m MASUKAN NILAI UTS \33[41m\33[30m ~# \33[0m '))
+        p.clean()
+        p.header()
+        self._uas = int(
+            input(
+                '\33[45m\33[37m MASUKAN NILAI UAS \33[41m\33[30m ~# \33[0m '))
+        p.clean()
+        self._akhir = float((self._tugas * 0.30) + (self._uts * 0.35) +
+                            (self._uas * 0.35))
 
         return self._nama, self._nim, self._tugas, self._uts, self._uas, self._akhir
 
