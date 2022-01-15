@@ -88,19 +88,19 @@
 ### sourcecode
  
         import os
-import time
-from ui.color import c
-from ui.a_loading import load
-from model._data import data
+    import time
+    from ui.color import c
+    from ui.a_loading import load
+    from model._data import data
 
-l = load()
-class view:
+    l = load()
+    class view:
 
     def tampil(self):
         os.system('clear')
         print('''
  
- +---------{  PROGRAM INPUT DATA MAHASISWA  }--------+
+    +---------{  PROGRAM INPUT DATA MAHASISWA  }--------+
  
             \n''')
         l.loading()
@@ -130,7 +130,7 @@ class view:
         os.system('clear')
         print('''
  
- {  PROGRAM INPUT  DATA MAHASISWA  }
+    {  PROGRAM INPUT  DATA MAHASISWA  }
  
             \n''')
         l.loading()
@@ -194,7 +194,7 @@ class view:
     def header(self):
         print('''
  
- {  PROGRAM INPUT DATA MAHASISWA  }
+    {  PROGRAM INPUT DATA MAHASISWA  }
  
             \n''')
 
