@@ -206,7 +206,7 @@
         time.sleep(3)
         os.system('clear')
  
- ## Daftar_nilai.py
+ ## daftar_nilai.py
 
 <p>
  
